@@ -1,0 +1,17 @@
+{
+  "first_name": "Atahan",
+  "last_name": "Evintan",
+  "age": 20,
+  "interests": [
+    "artificial intelligence",
+    "software development",
+    "computer networks",
+    "cloud computing"
+  ],
+  "submission_type": "file",
+  "original_filename": "original.json",
+  "server_note": "Your file was received and processed by the server.",
+  "processed_at": "2026-04-06T11:54:21.272893+03:00",
+  "status": "processed",
+  "id": 62
+}

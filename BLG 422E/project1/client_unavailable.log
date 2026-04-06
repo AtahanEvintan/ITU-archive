@@ -1,0 +1,69 @@
+2026-03-26 07:05:11 [INFO] ============================================================
+2026-03-26 07:05:11 [INFO] CLIENT APPLICATION STARTED
+2026-03-26 07:05:11 [INFO] Timestamp : 2026-03-26T07:05:11
+2026-03-26 07:05:11 [INFO] Server URL: https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:05:11 [INFO] Mode      : unavailable
+2026-03-26 07:05:11 [INFO] Log file  : client_unavailable.log
+2026-03-26 07:05:11 [INFO] ============================================================
+2026-03-26 07:05:11 [INFO] Successfully read: original.json
+2026-03-26 07:05:11 [INFO] Initiating server communication with automatic retry…
+2026-03-26 07:05:11 [INFO] Attempt #1 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:05:13 [INFO] HTTP status: 403
+2026-03-26 07:05:13 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:05:13 [INFO] Retrying in 30 seconds …
+2026-03-26 07:05:43 [INFO] Attempt #2 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:05:45 [INFO] HTTP status: 403
+2026-03-26 07:05:45 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:05:45 [INFO] Retrying in 30 seconds …
+2026-03-26 07:06:15 [INFO] Attempt #3 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:06:17 [INFO] HTTP status: 403
+2026-03-26 07:06:17 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:06:17 [INFO] Retrying in 30 seconds …
+2026-03-26 07:06:47 [INFO] Attempt #4 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:06:49 [INFO] HTTP status: 403
+2026-03-26 07:06:49 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:06:49 [INFO] Retrying in 30 seconds …
+2026-03-26 07:07:19 [INFO] Attempt #5 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:07:21 [INFO] HTTP status: 403
+2026-03-26 07:07:21 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:07:21 [INFO] Retrying in 30 seconds …
+2026-03-26 07:07:51 [INFO] Attempt #6 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:07:53 [INFO] HTTP status: 403
+2026-03-26 07:07:53 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:07:53 [INFO] Retrying in 30 seconds …
+2026-03-26 07:08:23 [INFO] Attempt #7 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:08:25 [ERROR] Connection error: HTTPSConnectionPool(host='student-server-production-528a.up.railway.app', port=443): Max retries exceeded with url: /submit-file (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+2026-03-26 07:08:25 [INFO] Retrying in 30 seconds …
+2026-03-26 07:08:55 [INFO] Attempt #8 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:08:57 [INFO] HTTP status: 503
+2026-03-26 07:08:57 [WARNING] Server rejected request (HTTP 503). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:08:57 [INFO] Retrying in 30 seconds …
+2026-03-26 07:09:27 [INFO] Attempt #9 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:09:29 [INFO] HTTP status: 403
+2026-03-26 07:09:29 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:09:29 [INFO] Retrying in 30 seconds …
+2026-03-26 07:09:59 [INFO] Attempt #10 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-03-26 07:10:01 [INFO] HTTP status: 403
+2026-03-26 07:10:01 [WARNING] Server rejected request (HTTP 403). Server may be outside allowed hours (09:00–18:00).
+2026-03-26 07:10:01 [INFO] Retrying in 30 seconds …
+2026-03-26 07:10:03 [WARNING] Server communication ended: KeyboardInterrupt
+2026-03-26 07:10:03 [WARNING] modified_unavailable.json will be created with unavailability notice.
+2026-03-26 07:10:03 [INFO] Successfully saved: modified_unavailable.json
+2026-03-26 07:10:03 [INFO] ──────────────────────────────────────────────────
+2026-03-26 07:10:03 [INFO] JSON COMPARISON REPORT
+2026-03-26 07:10:03 [INFO] ──────────────────────────────────────────────────
+2026-03-26 07:10:03 [INFO]   [ADDED]     'original_data': {'first_name': 'Atahan', 'last_name': 'Evintan', 'age': 20, 'interests': ['artificial intelligence', 'software development', 'computer networks', 'cloud computing']}
+2026-03-26 07:10:03 [INFO]   [ADDED]     'server_status': 'unavailable'
+2026-03-26 07:10:03 [INFO]   [ADDED]     'note': 'The server was unavailable during this run. The client retried automatically but was interrupted before a successful response was received.'
+2026-03-26 07:10:03 [INFO]   [ADDED]     'timestamp': '2026-03-26T07:10:03'
+2026-03-26 07:10:03 [INFO]   [REMOVED]   'first_name': 'Atahan'
+2026-03-26 07:10:03 [INFO]   [REMOVED]   'last_name': 'Evintan'
+2026-03-26 07:10:03 [INFO]   [REMOVED]   'age': 20
+2026-03-26 07:10:03 [INFO]   [REMOVED]   'interests': ['artificial intelligence', 'software development', 'computer networks', 'cloud computing']
+2026-03-26 07:10:03 [INFO] ──────────────────────────────────────────────────
+2026-03-26 07:10:03 [INFO] Summary — Added: 4  |  Modified: 0  |  Unchanged: 0  |  Removed: 4
+2026-03-26 07:10:03 [INFO] ──────────────────────────────────────────────────
+2026-03-26 07:10:03 [INFO] ============================================================
+2026-03-26 07:10:03 [INFO] CLIENT APPLICATION ENDED WITHOUT SUCCESSFUL SERVER RESPONSE
+2026-03-26 07:10:03 [INFO] Timestamp : 2026-03-26T07:10:03
+2026-03-26 07:10:03 [INFO] ============================================================

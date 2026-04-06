@@ -1,0 +1,33 @@
+2026-04-06 11:54:20 [INFO] ============================================================
+2026-04-06 11:54:20 [INFO] CLIENT APPLICATION STARTED
+2026-04-06 11:54:20 [INFO] Timestamp : 2026-04-06T11:54:20.865751
+2026-04-06 11:54:20 [INFO] Server URL: https://student-server-production-528a.up.railway.app/submit-file
+2026-04-06 11:54:20 [INFO] Mode      : available
+2026-04-06 11:54:20 [INFO] Log file  : client_available.log
+2026-04-06 11:54:20 [INFO] ============================================================
+2026-04-06 11:54:20 [INFO] Successfully read: original.json
+2026-04-06 11:54:20 [INFO] Initiating server communication with automatic retry…
+2026-04-06 11:54:20 [INFO] Attempt #1 — POST https://student-server-production-528a.up.railway.app/submit-file
+2026-04-06 11:54:21 [INFO] HTTP status: 200
+2026-04-06 11:54:21 [INFO] Server responded successfully — response parsed as JSON.
+2026-04-06 11:54:21 [INFO] Successfully saved: modified.json
+2026-04-06 11:54:21 [INFO] ──────────────────────────────────────────────────
+2026-04-06 11:54:21 [INFO] JSON COMPARISON REPORT
+2026-04-06 11:54:21 [INFO] ──────────────────────────────────────────────────
+2026-04-06 11:54:21 [INFO]   [UNCHANGED] 'first_name': 'Atahan'
+2026-04-06 11:54:21 [INFO]   [UNCHANGED] 'last_name': 'Evintan'
+2026-04-06 11:54:21 [INFO]   [UNCHANGED] 'age': 20
+2026-04-06 11:54:21 [INFO]   [UNCHANGED] 'interests': ['artificial intelligence', 'software development', 'computer networks', 'cloud computing']
+2026-04-06 11:54:21 [INFO]   [ADDED]     'submission_type': 'file'
+2026-04-06 11:54:21 [INFO]   [ADDED]     'original_filename': 'original.json'
+2026-04-06 11:54:21 [INFO]   [ADDED]     'server_note': 'Your file was received and processed by the server.'
+2026-04-06 11:54:21 [INFO]   [ADDED]     'processed_at': '2026-04-06T11:54:21.272893+03:00'
+2026-04-06 11:54:21 [INFO]   [ADDED]     'status': 'processed'
+2026-04-06 11:54:21 [INFO]   [ADDED]     'id': 62
+2026-04-06 11:54:21 [INFO] ──────────────────────────────────────────────────
+2026-04-06 11:54:21 [INFO] Summary — Added: 6  |  Modified: 0  |  Unchanged: 4  |  Removed: 0
+2026-04-06 11:54:21 [INFO] ──────────────────────────────────────────────────
+2026-04-06 11:54:21 [INFO] ============================================================
+2026-04-06 11:54:21 [INFO] CLIENT APPLICATION COMPLETED SUCCESSFULLY
+2026-04-06 11:54:21 [INFO] Timestamp : 2026-04-06T11:54:21.359494
+2026-04-06 11:54:21 [INFO] ============================================================
